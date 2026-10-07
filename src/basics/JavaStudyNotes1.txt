@@ -1,0 +1,25 @@
+10/06/2026 TUE
+
+- String in JAVA is not a primitive type. String is a "class" which makes it a reference type.
+- There are total 8 primitive types in JAVA:
+   Java Primitive Types (8 Types)
+
+   +---------+----------+--------------------------------------+----------------+
+   | Type    | Size     | Range                                | Default Value  |
+   +---------+----------+--------------------------------------+----------------+
+   | byte    | 8 bits   | -128 to 127                          | 0              |
+   | short   | 16 bits  | -32,768 to 32,767                    | 0              |
+   | int     | 32 bits  | -2^31 to 2^31 - 1                    | 0              |
+   | long    | 64 bits  | -2^63 to 2^63 - 1                    | 0L             |
+   | float   | 32 bits  | Approximately ±3.4 × 10^38           | 0.0f           |
+   | double  | 64 bits  | Approximately ±1.7 × 10^308          | 0.0d           |
+   | char    | 16 bits  | 0 to 65,535                          | '\u0000'       |
+   | boolean | JVM-dependent | true or false                   | false          |
+   +---------+----------+--------------------------------------+----------------+
+
+   Notes:
+   - byte, short, int, and long are signed integer types.
+   - float and double are floating-point types.
+   - char is a 16-bit unsigned type used to represent UTF-16 code units.
+   - boolean can only have two values: true or false.
+   - The exact memory size of boolean is not specified by the Java Language Specification.
