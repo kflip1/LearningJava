@@ -1,4 +1,4 @@
-package CodeWithMosh;
+package basics;
 
 public class LogicalOp {
     public static void main(String[] args){

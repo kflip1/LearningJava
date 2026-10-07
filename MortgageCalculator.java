@@ -1,4 +1,4 @@
-package CodeWithMosh;
+package basics;
 
 import java.text.NumberFormat;
 import java.util.Scanner;
@@ -24,7 +24,6 @@ public class MortgageCalculator {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Pyo's Mortgage Calculator 😎");
-
 
         System.out.print("Principal: ");
         int principal = scanner.nextInt();

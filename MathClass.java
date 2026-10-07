@@ -1,4 +1,4 @@
-package CodeWithMosh;
+package basics;
 
 
 public class MathClass {
