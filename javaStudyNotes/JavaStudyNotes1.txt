@@ -19,7 +19,7 @@
 
    Notes:
    - byte, short, int, and long are signed integer types.
-   - float and double are floating-point types.
+   - float and double are floating-point types. (Floating-point: numbers with a decimal point; real numbers)
    - char is a 16-bit unsigned type used to represent UTF-16 code units.
    - boolean can only have two values: true or false.
    - The exact memory size of boolean is not specified by the Java Language Specification.
