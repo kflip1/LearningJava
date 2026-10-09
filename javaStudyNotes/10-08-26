@@ -1,0 +1,5 @@
+10/08/2026 THUR
+
+Break & Continue
+- "continue" brings control to the beginning of the loop; does not go through the code behind "continue and skips to the condition of the loop
+- "continue" can only be used inside loops: for, while, and do-while
