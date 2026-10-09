@@ -15,6 +15,8 @@ public class WhileLoop {
         while (!input.equals("quit")){
             System.out.print("Input: ");
             input = scanner.next().toLowerCase();
+            //toLowerCase() method prevents "Quit" from being ignored
+            //toLowerCase(): String method. returns a NEW lowercase String
             System.out.println(input);
         }
     }

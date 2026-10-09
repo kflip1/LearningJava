@@ -2,4 +2,23 @@
 
 Break & Continue
 - "continue" brings control to the beginning of the loop; does not go through the code behind "continue and skips to the condition of the loop
-- "continue" can only be used inside loops: for, while, and do-while
+   In FOR statements, if the code reaches to "continue," it executes the update expression (i.g. i++, i--), and then evaluates the condition.
+- "continue" can only be used inside loops: for, while, and do-while (iteration statements)
+
+For-Each Loop
+- For-Each loop is a way to go through every item in an array or collection, one at a time, without managing an index yourself.
+- For-Each loop stops when there are no more elements left to take. You don't have to write down the condition unlike For loop, but Java handles it.
+- A for-each loop has no built-in access to the index. However, you can keep
+    track of it manually by declaring a counter variable BEFORE the loop and
+    incrementing it (e.g., j++) inside the loop body.
+    Ex) int j = 0;
+        for (String fruit : fruits) {
+            System.out.println(j + "\t" + fruit);
+            j++;
+        }
+
+
+ETC
+- When you want to add some horizontal space between strings in System.out.println(), you can add a tab space through inserting "\t"
+  Ex) System.out.println("hello" + "\t" + "nice to meet you");
+      System.out.println("hello\t nice to meet you");
